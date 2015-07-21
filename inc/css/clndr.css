@@ -1,0 +1,72 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans+Mono);
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clearfix {
+  display: inline-block;
+}
+html[xmlns] .clearfix {
+  display: block;
+}
+* html .clearfix {
+  height: 1%;
+}
+.noselect {
+  -webkit-user-select: none;
+  /* Chrome/Safari */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* IE10+ */
+}
+#full-clndr h4 {
+  width: 75%;
+  text-align: center;
+  font-family: 'Droid Sans Mono';
+  font-weight: normal;
+  color: white;
+  font-size: 14px;
+  margin: 0 auto 1em auto;
+  padding: 1em;
+  background: #b63642;
+}
+#full-clndr p {
+  text-align: center;
+  font-family: 'Droid Sans Mono';
+  margin: 3em auto 1em auto;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  border-bottom: 2px solid #414141;
+  background: #f4f4f4;
+}
+#full-clndr .left-align {
+  text-align: left;
+}
+#full-clndr .right-align {
+  text-align: right;
+}
+
+.clndr-next-button,
+.clndr-previous-button,
+.clndr-next-year-button,
+.clndr-previous-year-button {
+  -webkit-user-select: none;
+  /* Chrome/Safari */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* IE10+ */
+}
+.clndr-next-button.inactive,
+.clndr-previous-button.inactive,
+.clndr-next-year-button.inactive,
+.clndr-previous-year-button.inactive {
+  opacity: 0.5;
+  cursor: default;
+}
